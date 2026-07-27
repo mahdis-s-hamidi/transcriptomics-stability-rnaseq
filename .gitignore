@@ -216,3 +216,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ===== RNA-seq project =====
+
+# Reference genome and annotation
+data/reference/*.fa
+data/reference/*.fa.gz
+data/reference/*.gtf
+data/reference/*.gtf.gz
+data/reference/star_index/
+
+# STAR temporary files
+data/reference/_STARtmp/
+
+# Large raw sequencing files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Conda environment
+env/
